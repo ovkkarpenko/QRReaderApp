@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		FAA3CC0B258B6F8B00867E34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3CC0A258B6F8B00867E34 /* AppDelegate.swift */; };
-		FAA3CC0D258B6F8B00867E34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3CC0C258B6F8B00867E34 /* SceneDelegate.swift */; };
-		FAA3CC0F258B6F8B00867E34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3CC0E258B6F8B00867E34 /* ViewController.swift */; };
-		FAA3CC12258B6F8B00867E34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA3CC10258B6F8B00867E34 /* Main.storyboard */; };
+		FAA3CC0F258B6F8B00867E34 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3CC0E258B6F8B00867E34 /* ProductViewController.swift */; };
+		FAA3CC12258B6F8B00867E34 /* Products.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA3CC10258B6F8B00867E34 /* Products.storyboard */; };
 		FAA3CC14258B6F8C00867E34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA3CC13258B6F8C00867E34 /* Assets.xcassets */; };
 		FAA3CC17258B6F8C00867E34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA3CC15258B6F8C00867E34 /* LaunchScreen.storyboard */; };
+		FAA3CC2D258B713000867E34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3CC2C258B713000867E34 /* SceneDelegate.swift */; };
+		FAA3CC30258B720500867E34 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3CC2F258B720500867E34 /* ProductTableViewCell.swift */; };
+		FAA3CC34258B72B400867E34 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3CC33258B72B400867E34 /* AppConfig.swift */; };
+		FAA3CC39258B745000867E34 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3CC38258B745000867E34 /* ProductViewModel.swift */; };
+		FAA3CC3E258B745D00867E34 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3CC3D258B745D00867E34 /* ProductModel.swift */; };
+		FAA3CC41258B7C3F00867E34 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA3CC40258B7C3F00867E34 /* ScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FAA3CC07258B6F8B00867E34 /* QRReaderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRReaderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA3CC0A258B6F8B00867E34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FAA3CC0C258B6F8B00867E34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAA3CC0E258B6F8B00867E34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAA3CC11258B6F8B00867E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA3CC0E258B6F8B00867E34 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		FAA3CC11258B6F8B00867E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Products.storyboard; sourceTree = "<group>"; };
 		FAA3CC13258B6F8C00867E34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA3CC16258B6F8C00867E34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA3CC18258B6F8C00867E34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA3CC2C258B713000867E34 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAA3CC2F258B720500867E34 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		FAA3CC33258B72B400867E34 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		FAA3CC38258B745000867E34 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		FAA3CC3D258B745D00867E34 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		FAA3CC40258B7C3F00867E34 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,92 @@
 		FAA3CC09258B6F8B00867E34 /* QRReaderApp */ = {
 			isa = PBXGroup;
 			children = (
+				FAA3CC20258B6FBA00867E34 /* Modules */,
+				FAA3CC28258B701100867E34 /* SupportingFiles */,
+			);
+			path = QRReaderApp;
+			sourceTree = "<group>";
+		};
+		FAA3CC20258B6FBA00867E34 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3CC22258B6FC000867E34 /* Products */,
+				FAA3CC21258B6FBE00867E34 /* Common */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FAA3CC21258B6FBE00867E34 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3CC32258B72A800867E34 /* Config */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FAA3CC22258B6FC000867E34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3CC3C258B745300867E34 /* Model */,
+				FAA3CC25258B6FFB00867E34 /* Controller */,
+				FAA3CC37258B744200867E34 /* ViewModel */,
+				FAA3CC24258B6FF700867E34 /* View */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		FAA3CC24258B6FF700867E34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3CC10258B6F8B00867E34 /* Products.storyboard */,
+				FAA3CC2F258B720500867E34 /* ProductTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAA3CC25258B6FFB00867E34 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3CC0E258B6F8B00867E34 /* ProductViewController.swift */,
+				FAA3CC40258B7C3F00867E34 /* ScannerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAA3CC28258B701100867E34 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				FAA3CC0A258B6F8B00867E34 /* AppDelegate.swift */,
-				FAA3CC0C258B6F8B00867E34 /* SceneDelegate.swift */,
-				FAA3CC0E258B6F8B00867E34 /* ViewController.swift */,
-				FAA3CC10258B6F8B00867E34 /* Main.storyboard */,
+				FAA3CC2C258B713000867E34 /* SceneDelegate.swift */,
 				FAA3CC13258B6F8C00867E34 /* Assets.xcassets */,
 				FAA3CC15258B6F8C00867E34 /* LaunchScreen.storyboard */,
 				FAA3CC18258B6F8C00867E34 /* Info.plist */,
 			);
-			path = QRReaderApp;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		FAA3CC32258B72A800867E34 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3CC33258B72B400867E34 /* AppConfig.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		FAA3CC37258B744200867E34 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3CC38258B745000867E34 /* ProductViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FAA3CC3C258B745300867E34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3CC3D258B745D00867E34 /* ProductModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +213,7 @@
 			files = (
 				FAA3CC17258B6F8C00867E34 /* LaunchScreen.storyboard in Resources */,
 				FAA3CC14258B6F8C00867E34 /* Assets.xcassets in Resources */,
-				FAA3CC12258B6F8B00867E34 /* Main.storyboard in Resources */,
+				FAA3CC12258B6F8B00867E34 /* Products.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,21 +224,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA3CC0F258B6F8B00867E34 /* ViewController.swift in Sources */,
+				FAA3CC0F258B6F8B00867E34 /* ProductViewController.swift in Sources */,
+				FAA3CC34258B72B400867E34 /* AppConfig.swift in Sources */,
+				FAA3CC39258B745000867E34 /* ProductViewModel.swift in Sources */,
+				FAA3CC30258B720500867E34 /* ProductTableViewCell.swift in Sources */,
 				FAA3CC0B258B6F8B00867E34 /* AppDelegate.swift in Sources */,
-				FAA3CC0D258B6F8B00867E34 /* SceneDelegate.swift in Sources */,
+				FAA3CC3E258B745D00867E34 /* ProductModel.swift in Sources */,
+				FAA3CC2D258B713000867E34 /* SceneDelegate.swift in Sources */,
+				FAA3CC41258B7C3F00867E34 /* ScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FAA3CC10258B6F8B00867E34 /* Main.storyboard */ = {
+		FAA3CC10258B6F8B00867E34 /* Products.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FAA3CC11258B6F8B00867E34 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Products.storyboard;
 			sourceTree = "<group>";
 		};
 		FAA3CC15258B6F8C00867E34 /* LaunchScreen.storyboard */ = {
@@ -216,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
